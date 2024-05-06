@@ -6,3 +6,7 @@ Dataset with DNA methylation data GSE87571 (https://www.ncbi.nlm.nih.gov/geo/que
 * 476,366 CpG sites across the genome of white blood cells 
 * population cohort (N = 421) aged 14 to 94 years, number of samples is 732.
 ![Dataset sex-age distribution:](https://github.com/NikitiusIvanov/methylation_age_clock/blob/main/sex_age_distribution.png)
+
+## Results
+Was fitted elastic-net linear model with MAE 2.9 years that uses 106 CpG sites
+![Weight visualization](https://github.com/NikitiusIvanov/methylation_age_clock/blob/main/weights_visualization.png)
